@@ -4,10 +4,10 @@
 #mainprogress, #achievement, #web {
 	color: red;	/*red*/
 }
-a {
+.page-anchor {
 	color: green;
 }
-a:hover {
+.page-anchor:hover {
 	background-color: green;
 	padding: 3px 3px 3px 3px;
 	color: white;
