@@ -1,7 +1,7 @@
 <script setup>
 import { reactive } from "vue"
-import enIcon from "@/assets/icons/uk.png"
-import jaIcon from "@/assets/icons/japan.png"
+import enIcon from "@/assets/icons/gb.png"
+import jaIcon from "@/assets/icons/jp.png"
 import { setLocale } from "@/locales"
 
 const langs = reactive({
