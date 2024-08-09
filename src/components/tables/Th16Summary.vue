@@ -1,0 +1,152 @@
+<script setup lang="ts">
+import { ref } from "vue"
+import dayjs from "dayjs"
+import { CONSTANTS } from "thrpy-parser"
+
+defineProps(["filename", "info"])
+
+const stagesActive = ref(false)
+
+function formatSeasonPower(seasonPower: number): string {
+  if (isNaN(seasonPower)) return ""
+
+  const thresholds = [0, 100, 230, 390, 590, 840, 1140, 1140]
+  let i
+  for (i = 0; i < thresholds.length - 1; i++) if (seasonPower < thresholds[i]) break
+  return `${i} (${seasonPower}/${thresholds[i]})`
+}
+</script>
+
+<template>
+  <div class="grid">
+    <Transition name="replay-slide">
+      <table
+        class="container table-overlap border border-separate border-slate-500 text-left shadow-lg shadow-th16/50"
+        v-show="!stagesActive"
+      >
+        <thead>
+          <tr>
+            <th class="border border-slate-500 bg-th16 text-slate-100 px-3 py-1" colspan="100%">
+              {{ filename }}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="border border-slate-500 px-3 py-1">{{ $t(`table.labels.game`) }}</th>
+            <td class="border border-slate-500 px-3 py-1">
+              {{ $t(`table.values.${info.game}.title`) }}
+            </td>
+          </tr>
+          <tr>
+            <th class="border border-slate-500 px-3 py-1">{{ $t(`table.labels.difficulty`) }}</th>
+            <td class="border border-slate-500 px-3 py-1">
+              {{ $t(`table.values.difficulty.${info.difficulty}`) }}
+            </td>
+          </tr>
+          <tr>
+            <th class="border border-slate-500 px-3 py-1">{{ $t(`table.labels.shot`) }}</th>
+            <td class="border border-slate-500 px-3 py-1">
+              <span>{{ $t(`table.values.${info.game}.shot[${info.shot}]`) }}</span>
+              <span v-if="info.difficulty !== CONSTANTS.DIFFICULTY.EXTRA">{{
+                $t(`table.values.${info.game}.season[${info.season}]`)
+              }}</span>
+            </td>
+          </tr>
+          <tr>
+            <th class="border border-slate-500 px-3 py-1">{{ $t(`table.labels.score`) }}</th>
+            <td class="border border-slate-500 px-3 py-1">{{ $n(info.score) }}</td>
+          </tr>
+          <tr>
+            <th class="border border-slate-500 px-3 py-1">{{ $t(`table.labels.date`) }}</th>
+            <td class="border border-slate-500 px-3 py-1">
+              {{
+                dayjs(info.date.getTime() + info.date.getTimezoneOffset() * 60000).format(
+                  "YYYY-MM-DD HH:mm:ss"
+                )
+              }}
+            </td>
+          </tr>
+          <tr>
+            <th class="border border-slate-500 px-3 py-1">{{ $t(`table.labels.name`) }}</th>
+            <td class="border border-slate-500 px-3 py-1">{{ info.name }}</td>
+          </tr>
+          <tr>
+            <th class="border border-slate-500 px-3 py-1">{{ $t(`table.labels.slowdown`) }}</th>
+            <td class="border border-slate-500 px-3 py-1">{{ info.slowdown.toFixed(2) }}%</td>
+          </tr>
+          <tr>
+            <th class="border border-slate-500 px-3 py-1">{{ $t(`table.labels.type`) }}</th>
+            <td class="border border-slate-500 px-3 py-1">
+              {{ $t(`table.values.type[${info.type}]`) }}
+            </td>
+          </tr>
+          <tr>
+            <Button
+              class="mx-2 my-1 bg-th16 hover:bg-th16/75 active:bg-th16/50 border-transparent"
+              v-if="
+                info.type === CONSTANTS.REPLAY_TYPE.FULL_GAME &&
+                info.difficulty !== CONSTANTS.DIFFICULTY.EXTRA
+              "
+              @click="stagesActive = !stagesActive"
+            >
+              <span>{{ $t(`table.labels.stages`) }} <span class="pi pi-caret-right"></span></span>
+            </Button>
+          </tr>
+        </tbody>
+      </table>
+    </Transition>
+    <Transition name="stages-slide">
+      <table
+        class="container table-overlap border border-separate border-slate-500 text-left shadow-lg shadow-th16/50"
+        v-show="stagesActive"
+      >
+        <thead>
+          <tr>
+            <th class="border border-slate-500 bg-th16 text-slate-100 px-3 py-1" colspan="100%">
+              {{ filename }} - {{ $t(`table.labels.stages`) }}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th class="border border-slate-500 px-3 py-1">Stage</th>
+            <th class="border border-slate-500 px-3 py-1">Score</th>
+            <th class="border border-slate-500 px-3 py-1">Lives</th>
+            <th class="border border-slate-500 px-3 py-1">Bombs</th>
+            <th class="border border-slate-500 px-3 py-1">Power</th>
+            <th class="border border-slate-500 px-3 py-1">PIV</th>
+            <th class="border border-slate-500 px-3 py-1">Graze</th>
+            <th class="border border-slate-500 px-3 py-1">Season Power</th>
+          </tr>
+          <tr v-for="stage in info.stages" :key="stage.stage">
+            <th class="border border-slate-500 px-3 py-1">
+              {{ $t(`table.labels.stage_number`, { stage: stage.stage }) }}
+            </th>
+            <td class="border border-slate-500 px-3 py-1">{{ $n(stage.score) }}</td>
+            <td class="border border-slate-500 px-3 py-1">{{ stage.lives }}</td>
+            <td class="border border-slate-500 px-3 py-1">
+              {{ !isNaN(stage.bombs) ? `${stage.bombs} (${stage.bomb_pieces}/5)` : "" }}
+            </td>
+            <td class="border border-slate-500 px-3 py-1">
+              {{ !isNaN(stage.power) ? (stage.power / 100).toFixed(2) : "" }}
+            </td>
+            <td class="border border-slate-500 px-3 py-1">{{ stage.piv }}</td>
+            <td class="border border-slate-500 px-3 py-1">{{ stage.graze }}</td>
+            <td class="border border-slate-500 px-3 py-1">
+              {{ formatSeasonPower(stage.season_power) }}
+            </td>
+          </tr>
+          <tr>
+            <Button
+              class="mx-2 my-1 bg-th16 hover:bg-th16/75 active:bg-th16/50 border-transparent"
+              @click="stagesActive = false"
+            >
+              <span><span class="pi pi-caret-left"></span> {{ $t(`table.labels.back`) }} </span>
+            </Button>
+          </tr>
+        </tbody>
+      </table>
+    </Transition>
+  </div>
+</template>
