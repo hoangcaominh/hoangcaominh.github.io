@@ -1,7 +1,7 @@
 {
-  "name": "kosuzu",
+  "name": "website",
   "version": "0.0.0",
-  "homepage": "https://hoangcaominh.github.io/kosuzu",
+  "homepage": "https://hoangcaominh.github.io",
   "private": true,
   "scripts": {
     "dev": "vite --host",
@@ -14,11 +14,7 @@
   },
   "dependencies": {
     "dayjs": "^1.11.10",
-    "iconv-lite": "^0.6.3",
     "pinia": "^2.1.7",
-    "primeicons": "^6.0.1",
-    "primevue": "^3.40.1",
-    "thrpy-parser": "^0.2.1",
     "vue": "^3.3.4",
     "vue-i18n": "^9.6.5",
     "vue-router": "^4.2.5"
@@ -34,7 +30,6 @@
     "autoprefixer": "^10.4.16",
     "eslint": "^8.49.0",
     "eslint-plugin-vue": "^9.17.0",
-    "npm-run-all2": "^6.1.1",
     "postcss": "^8.4.31",
     "prettier": "^3.0.3",
     "tailwindcss": "^3.3.5",
@@ -42,7 +37,6 @@
     "typescript": "~5.2.0",
     "unplugin-vue-components": "^0.25.2",
     "vite": "^4.5.3",
-    "vite-plugin-node-polyfills": "^0.16.0",
     "vue-tsc": "^1.8.19"
   }
 }

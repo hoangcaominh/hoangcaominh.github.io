@@ -1,5 +1,5 @@
 <script setup lang="ts"></script>
 
 <template>
-  <ReplayUpload></ReplayUpload>
+  <p class="text-lg text-amber-500">Hello World!</p>
 </template>

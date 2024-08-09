@@ -8,7 +8,6 @@ import { RouterLink, RouterView } from "vue-router"
     <header>
       <nav class="grid grid-cols-2 gap-2">
         <RouterLink class="route" to="/">Home</RouterLink>
-        <RouterLink class="route" to="/about">About</RouterLink>
       </nav>
     </header>
     <SelectLang />
