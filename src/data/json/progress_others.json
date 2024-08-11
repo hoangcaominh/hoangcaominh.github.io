@@ -1,0 +1,55 @@
+[
+  {
+    "game": "StB",
+    "objectives": [
+      {
+        "condition": "Normal",
+        "status": "All Clear (93 scenes)"
+      }
+    ]
+  },
+  {
+    "game": "DS",
+    "objectives": [
+      {
+        "condition": "Aya",
+        "status": "All Clear (108/108)"
+      },
+      {
+        "condition": "Hatate",
+        "status": "All Clear (99/99)"
+      }
+    ]
+  },
+  {
+    "game": "ISC",
+    "objectives": [
+      {
+        "condition": "Normal",
+        "status": "All Clear (75/75)"
+      },
+      {
+        "condition": "No Item",
+        "status": "All Clear (75/75)"
+      }
+    ]
+  },
+  {
+    "game": "VD",
+    "objectives": [
+      {
+        "condition": "Normal",
+        "status": "All Clear (103 dream diaries)"
+      }
+    ]
+  },
+  {
+    "game": "100BM",
+    "objectives": [
+      {
+        "condition": "Cards",
+        "status": "All Clear (85/85)"
+      }
+    ]
+  }
+]

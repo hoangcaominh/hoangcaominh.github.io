@@ -1,0 +1,95 @@
+[
+  {
+    "description": "The official website for Touhou World Cup",
+    "links": [
+      {
+        "url": "https://touhouworldcup.com/",
+        "name": "Touhou World Cup"
+      }
+    ]
+  },
+  {
+    "description": "Visit Maribel Hearn's website for Touhou players",
+    "links": [
+      {
+        "url": "https://maribelhearn.com/",
+        "name": "Maribel Hearn's GitHub Pages"
+      }
+    ]
+  },
+  {
+    "description": "Perfect-dodging Touhou players are listed in this page",
+    "links": [
+      {
+        "url": "https://maribelhearn.com/lnn",
+        "name": "Touhou Lunatic No Miss No Bomb"
+      }
+    ]
+  },
+  {
+    "description": "Top Touhou scoring players list and world records as well",
+    "links": [
+      {
+        "url": "https://maribelhearn.com/wr",
+        "name": "Touhou World Records"
+      },
+      {
+        "url": "https://thscore.pndsng.com/index.php",
+        "name": "PND list"
+      }
+    ]
+  },
+  {
+    "description": "Submit and share your replay to the community",
+    "links": [
+      {
+        "url": "http://replay.lunarcast.net/",
+        "name": "Lunarcast"
+      },
+      {
+        "url": "https://www.silentselene.net//",
+        "name": "Silent Selene"
+      },
+      {
+        "url": "https://www.puresign.tokyo/",
+        "name": "Keroda"
+      }
+    ]
+  },
+  {
+    "description": "Join the central hub of Touhou gameplay community",
+    "links": [
+      {
+        "url": "https://discord.gg/xU3utzg",
+        "name": "Touhou Replay Community"
+      }
+    ]
+  },
+  {
+    "description": "Meet and play with PoFV players all around the world",
+    "links": [
+      {
+        "url": "https://discord.gg/2QPPPpE",
+        "name": "Phantasmagoria Netplay"
+      }
+    ]
+  },
+  {
+    "description": "Find and explore all Touhou-related servers",
+    "links": [
+      {
+        "url": "https://discord.gg/R6KQuZs",
+        "name": "The Gap"
+      }
+    ]
+  },
+  {
+    "description": "Yatsuzume's Youtube channel",
+    "links": [
+      {
+        "url": "https://youtu.be/dQw4w9WgXcQ",
+        "name": "https://www.youtube.com/channel/UCqgqE5fMkxqdu1pM42KuIxA"
+      }
+    ]
+  }
+]

@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { reactive } from "vue"
 import enIcon from "@/assets/icons/gb.png"
 import jaIcon from "@/assets/icons/jp.png"

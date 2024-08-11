@@ -1,27 +1,17 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from "vue-router"
+import { RouterView } from "vue-router"
 </script>
 
 <template>
-  <Toast />
-  <div class="main">
-    <header>
-      <nav class="grid grid-cols-2 gap-2">
-        <RouterLink class="route" to="/">Home</RouterLink>
-      </nav>
-    </header>
-    <SelectLang />
-
-    <RouterView />
+  <div class=" py-3">
+    <div class="container mx-auto bg-gray-100 opacity-90 p-4">
+      <RouterView />
+    </div>
   </div>
 </template>
 
-<style scoped>
-.main {
-  @apply container mx-auto space-y-5;
-}
-
-.route {
-  @apply p-5 text-2xl text-center border rounded-md border-solid border-gray-500 hover:bg-gray-100 active:bg-gray-300;
+<style>
+body {
+  background: url("@/assets/images/background.png") no-repeat fixed;
 }
 </style>

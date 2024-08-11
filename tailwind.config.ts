@@ -21,6 +21,9 @@ export default {
         '128': '32rem',
         '144': '36rem',
       },
+      backgroundColor: {
+        'title': "rgb(255, 113, 20)",
+      },
       borderRadius: {
         '4xl': '2rem',
       },

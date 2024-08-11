@@ -1,3 +1,6 @@
 <template>
-    <p class="text-4xl">404 Not Found</p>
+  <PageTitle>404 Not Found</PageTitle>
+  <div class="text-center">
+    <PageBackButton></PageBackButton>
+  </div>
 </template>

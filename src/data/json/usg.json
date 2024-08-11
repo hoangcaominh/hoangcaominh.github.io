@@ -1,0 +1,23 @@
+[
+  {
+    "game": "IN",
+    "difficulty": "",
+    "shottype": "",
+    "goal": "",
+    "comment": "Originally the next goal right after IN LNNFS was achieved"
+  },
+  {
+    "game": "DDC",
+    "difficulty": "",
+    "shottype": "SakuyaA",
+    "goal": "",
+    "comment": "Requested by Borealis"
+  },
+  {
+    "game": "TD",
+    "difficulty": "Lunatic",
+    "shottype": "Reimu",
+    "goal": "2,500,000,000",
+    "comment": "Requested by kugei"
+  }
+]

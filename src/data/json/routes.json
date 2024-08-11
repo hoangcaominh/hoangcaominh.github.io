@@ -1,0 +1,32 @@
+[
+  {
+    "to": "/profile",
+    "name": "Profile",
+    "description": "Personal information"
+  },
+  {
+    "to": "/progress-main",
+    "name": "Main progress",
+    "description": "Maingame progress"
+  },
+  {
+    "to": "/progress-others",
+    "name": "Other progress",
+    "description": "Other STG progress"
+  },
+  {
+    "to": "/achievements",
+    "name": "Achievements",
+    "description": "Achievement history"
+  },
+  {
+    "to": "/replays",
+    "name": "Replays",
+    "description": "Epic moments"
+  },
+  {
+    "to": "/websites",
+    "name": "Websites",
+    "description": "Visit amazing websites"
+  }
+]

@@ -7,6 +7,8 @@ export {}
 
 declare module 'vue' {
   export interface GlobalComponents {
+    PageBackButton: typeof import('./src/components/PageBackButton.vue')['default']
+    PageTitle: typeof import('./src/components/PageTitle.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     SelectLang: typeof import('./src/components/SelectLang.vue')['default']
