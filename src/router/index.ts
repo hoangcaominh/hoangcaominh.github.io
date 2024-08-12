@@ -9,6 +9,8 @@ import ReplayView from "@/views/ReplayView.vue";
 import WebsiteView from "@/views/WebsiteView.vue";
 import NotFoundView from "@/views/NotFoundView.vue";
 import { nextTick } from "vue";
+import GameView from "@/views/GameView.vue";
+import USGView from "@/views/USGView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -69,6 +71,23 @@ const router = createRouter({
         title: "Websites"
       }
     },
+    // Hidden routes
+    {
+      path: "/games",
+      name: "games",
+      component: GameView,
+      meta: {
+        title: "Games"
+      }
+    },
+    {
+      path: "/usg",
+      name: "usg",
+      component: USGView,
+      meta: {
+        title: "USG"
+      }
+    },
     {
       path: "/:pathMatch(.*)*",
       name: "notfound",
@@ -83,7 +102,7 @@ const router = createRouter({
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 router.afterEach((to, from) => {
   nextTick(() => {
-    document.title = to.meta.title as string ?? "Website";
+    document.title = (to.meta.title as string) ?? "Website";
   });
 });
 
