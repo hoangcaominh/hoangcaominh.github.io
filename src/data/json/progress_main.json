@@ -1,0 +1,568 @@
+[
+  {
+    "game": "SoEW",
+    "pb": {
+      "easy": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "normal": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "hard": {
+        "type": "nc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "lunatic": {
+        "type": "nc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "extra": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      }
+    }
+  },
+  {
+    "game": "LLS",
+    "pb": {
+      "easy": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "normal": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "hard": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "lunatic": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "extra": {
+        "type": "nmnb",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": "NMNB"
+      }
+    }
+  },
+  {
+    "game": "MS",
+    "pb": {
+      "easy": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "normal": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "hard": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "lunatic": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "extra": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      }
+    }
+  },
+  {
+    "game": "EoSD",
+    "pb": {
+      "easy": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "normal": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "hard": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "lunatic": {
+        "type": "nb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th6_udRB8M.rpy",
+        "description": ""
+      },
+      "extra": {
+        "type": "nmnb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th6_udExNN.rpy",
+        "description": ""
+      }
+    }
+  },
+  {
+    "game": "PCB",
+    "pb": {
+      "easy": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "normal": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "hard": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "lunatic": {
+        "type": "nmnb",
+        "meets3rdConditions": false,
+        "replayPath": "replays/touhou/th7_udL001.rpy",
+        "description": ""
+      },
+      "extra": {
+        "type": "nmnb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th7_udXNNN.rpy",
+        "description": ""
+      },
+      "phantasm": {
+        "type": "nmnb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th7_udPNNN.rpy",
+        "description": ""
+      }
+    }
+  },
+  {
+    "game": "IN",
+    "pb": {
+      "easy": {
+        "type": "nmnb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th8_udPEma.rpy",
+        "description": ""
+      },
+      "normal": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "hard": {
+        "type": "nb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th8_udH100.rpy",
+        "description": ""
+      },
+      "lunatic": {
+        "type": "nmnb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th8_udLNNN.rpy",
+        "description": ""
+      },
+      "extra": {
+        "type": "nmnb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th8_udXNNN.rpy",
+        "description": ""
+      }
+    }
+  },
+  {
+    "game": "MoF",
+    "pb": {
+      "easy": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "normal": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "hard": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "lunatic": {
+        "type": "nb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th10_18.rpy",
+        "description": ""
+      },
+      "extra": {
+        "type": "nmnb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th10_25.rpy",
+        "description": ""
+      }
+    }
+  },
+  {
+    "game": "SA",
+    "pb": {
+      "easy": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "normal": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "hard": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "lunatic": {
+        "type": "nb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th11_udRA5M.rpy",
+        "description": ""
+      },
+      "extra": {
+        "type": "nmnb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th11_udExNN.rpy",
+        "description": ""
+      }
+    }
+  },
+  {
+    "game": "UFO",
+    "pb": {
+      "easy": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "normal": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "hard": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "lunatic": {
+        "type": "nb",
+        "meets3rdConditions": false,
+        "replayPath": "replays/touhou/th12_udRA9M.rpy",
+        "description": ""
+      },
+      "extra": {
+        "type": "nmnb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th12_udXNNN.rpy",
+        "description": ""
+      }
+    }
+  },
+  {
+    "game": "GFW",
+    "pb": {
+      "easy": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "normal": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "hard": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "lunatic": {
+        "type": "nb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th128_udL10M.rpy",
+        "description": ""
+      },
+      "extra": {
+        "type": "nmnb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th128_udExNN.rpy",
+        "description": ""
+      }
+    }
+  },
+  {
+    "game": "TD",
+    "pb": {
+      "easy": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "normal": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "hard": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "lunatic": {
+        "type": "nmnb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th13_udLNNN.rpy",
+        "description": ""
+      },
+      "extra": {
+        "type": "nmnb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th13_udXNNN.rpy",
+        "description": ""
+      }
+    }
+  },
+  {
+    "game": "DDC",
+    "pb": {
+      "easy": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "normal": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "hard": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "lunatic": {
+        "type": "nb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th14_udRA9M.rpy",
+        "description": ""
+      },
+      "extra": {
+        "type": "nmnb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th14_udExNN.rpy",
+        "description": ""
+      }
+    }
+  },
+  {
+    "game": "LoLK",
+    "pb": {
+      "easy": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "normal": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "hard": {
+        "type": "ncc",
+        "meets3rdConditions": true,
+        "replayPath": "",
+        "description": ""
+      },
+      "lunatic": {
+        "type": "nb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th15_udR13M.rpy",
+        "description": ""
+      },
+      "extra": {
+        "type": "nmnb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th15_udExNN.rpy",
+        "description": ""
+      }
+    }
+  },
+  {
+    "game": "HSiFS",
+    "pb": {
+      "easy": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "normal": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "hard": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "lunatic": {
+        "type": "nb",
+        "meets3rdConditions": false,
+        "replayPath": "replays/touhou/th16_udRWNB.rpy",
+        "description": ""
+      },
+      "extra": {
+        "type": "nmnb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th16_udxNNN.rpy",
+        "description": ""
+      }
+    }
+  },
+  {
+    "game": "WBaWC",
+    "pb": {
+      "easy": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "normal": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "hard": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "lunatic": {
+        "type": "nb",
+        "meets3rdConditions": false,
+        "replayPath": "replays/touhou/th17_udMWNB.rpy",
+        "description": ""
+      },
+      "extra": {
+        "type": "nmnb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th17_udXNNN.rpy",
+        "description": ""
+      }
+    }
+  },
+  {
+    "game": "UM",
+    "pb": {
+      "easy": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "normal": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "hard": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "lunatic": {
+        "type": "nb",
+        "meets3rdConditions": false,
+        "replayPath": "replays/touhou/th18_udLNNF.rpy",
+        "description": ""
+      },
+      "extra": {
+        "type": "nmnb",
+        "meets3rdConditions": true,
+        "replayPath": "replays/touhou/th18_udXNNN.rpy",
+        "description": ""
+      }
+    }
+  }
+]

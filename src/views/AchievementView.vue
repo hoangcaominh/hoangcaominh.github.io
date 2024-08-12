@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import achievements from "@/data/json/achievements.json"
+import achievements from "@/data/json/achievements.json";
 </script>
 
 <template>
@@ -14,8 +14,18 @@ import achievements from "@/data/json/achievements.json"
       </thead>
       <tbody>
         <tr class="text-left" v-for="achievement in achievements" :key="achievement.achievement">
-          <td class="border border-slate-600 bg-blue-600 text-white p-1" :class="{ 'is-milestone': achievement.isMilestone }">{{ achievement.date }}</td>
-          <td class="border border-slate-600 bg-red-500 text-white p-1" :class="{ 'is-milestone': achievement.isMilestone }">{{ achievement.achievement }}</td>
+          <td
+            class="border border-slate-600 bg-blue-600 text-white p-1"
+            :class="{ 'is-milestone': achievement.isMilestone }"
+          >
+            {{ achievement.date }}
+          </td>
+          <td
+            class="border border-slate-600 bg-red-500 text-white p-1"
+            :class="{ 'is-milestone': achievement.isMilestone }"
+          >
+            {{ achievement.achievement }}
+          </td>
         </tr>
       </tbody>
     </table>
@@ -25,7 +35,7 @@ import achievements from "@/data/json/achievements.json"
 
 <style scoped>
 .is-milestone {
-    @apply font-bold;
-    color: yellow;
+  @apply font-bold;
+  color: yellow;
 }
 </style>

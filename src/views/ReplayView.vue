@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import replays from "@/data/json/replays.json"
+import replays from "@/data/json/replays.json";
 </script>
 
 <template>
@@ -18,7 +18,7 @@ import replays from "@/data/json/replays.json"
         <tr class="text-left" v-for="replay in replays" :key="replay.path">
           <td class="border border-slate-600 bg-blue-600 text-white p-1">{{ replay.game }}</td>
           <td class="border border-slate-600 bg-pink-500 text-white p-1">
-            <a class="text-white hover:text-white" :href="replay.path">{{
+            <a class="text-white hover:text-gray-200" :href="replay.path">{{
               replay.path.split("/").pop()
             }}</a>
           </td>

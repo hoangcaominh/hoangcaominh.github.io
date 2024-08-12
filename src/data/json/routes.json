@@ -5,12 +5,12 @@
     "description": "Personal information"
   },
   {
-    "to": "/progress-main",
+    "to": "/main-progress",
     "name": "Main progress",
     "description": "Maingame progress"
   },
   {
-    "to": "/progress-others",
+    "to": "/other-progress",
     "name": "Other progress",
     "description": "Other STG progress"
   },

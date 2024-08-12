@@ -1,12 +1,13 @@
-import { createRouter, createWebHistory } from "vue-router"
+import { createRouter, createWebHistory } from "vue-router";
 
-import HomeView from "@/views/HomeView.vue"
-import ProfileView from "@/views/ProfileView.vue"
-import OtherProgressView from "@/views/OtherProgressView.vue"
-import AchievementView from "@/views/AchievementView.vue"
-import ReplayView from "@/views/ReplayView.vue"
-import WebsiteView from "@/views/WebsiteView.vue"
-import NotFoundView from "@/views/NotFoundView.vue"
+import HomeView from "@/views/HomeView.vue";
+import ProfileView from "@/views/ProfileView.vue";
+import MainProgressView from "@/views/MainProgressView.vue";
+import OtherProgressView from "@/views/OtherProgressView.vue";
+import AchievementView from "@/views/AchievementView.vue";
+import ReplayView from "@/views/ReplayView.vue";
+import WebsiteView from "@/views/WebsiteView.vue";
+import NotFoundView from "@/views/NotFoundView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -22,8 +23,13 @@ const router = createRouter({
       component: ProfileView
     },
     {
-      path: "/progress-others",
-      name: "progress-others",
+      path: "/main-progress",
+      name: "main-progress",
+      component: MainProgressView
+    },
+    {
+      path: "/other-progress",
+      name: "other-progress",
       component: OtherProgressView
     },
     {
@@ -47,6 +53,6 @@ const router = createRouter({
       component: NotFoundView
     }
   ]
-})
+});
 
-export default router
+export default router;

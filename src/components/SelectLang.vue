@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import { reactive } from "vue"
-import enIcon from "@/assets/icons/gb.png"
-import jaIcon from "@/assets/icons/jp.png"
-import { setLocale } from "@/locales"
+import { reactive } from "vue";
+import enIcon from "@/assets/icons/gb.png";
+import jaIcon from "@/assets/icons/jp.png";
+import { setLocale } from "@/locales";
 
 const langs = reactive({
   en: enIcon,
   ja: jaIcon
-})
+});
 </script>
 
 <template>

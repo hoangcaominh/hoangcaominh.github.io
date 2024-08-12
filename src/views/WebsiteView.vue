@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import websites from "@/data/json/websites.json"
+import websites from "@/data/json/websites.json";
 </script>
 
 <template>
@@ -8,7 +8,7 @@ import websites from "@/data/json/websites.json"
     <div v-for="website in websites" :key="website.description">
       <p class="font-bold">{{ website.description }}</p>
       <div class="my-1" v-for="link in website.links" :key="link.url">
-        <a :href="link.url">{{ link.name }}</a>
+        <a :href="link.url" target="_blank">{{ link.name }}</a>
       </div>
     </div>
     <PageBackButton></PageBackButton>
