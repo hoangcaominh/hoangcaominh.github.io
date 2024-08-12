@@ -121,6 +121,7 @@ function getReplayCell(obj: MPReplay | undefined) {
         </tr>
       </tbody>
     </table>
+    <PageBackButton></PageBackButton>
   </div>
 </template>
 
