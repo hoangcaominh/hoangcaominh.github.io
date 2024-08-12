@@ -8,6 +8,7 @@ import AchievementView from "@/views/AchievementView.vue";
 import ReplayView from "@/views/ReplayView.vue";
 import WebsiteView from "@/views/WebsiteView.vue";
 import NotFoundView from "@/views/NotFoundView.vue";
+import { nextTick } from "vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -15,44 +16,75 @@ const router = createRouter({
     {
       path: "/",
       name: "home",
-      component: HomeView
+      component: HomeView,
+      meta: {
+        title: "Cao Minh's GitHub Website"
+      }
     },
     {
       path: "/profile",
       name: "profile",
-      component: ProfileView
+      component: ProfileView,
+      meta: {
+        title: "Profile"
+      }
     },
     {
       path: "/main-progress",
       name: "main-progress",
-      component: MainProgressView
+      component: MainProgressView,
+      meta: {
+        title: "Main progress"
+      }
     },
     {
       path: "/other-progress",
       name: "other-progress",
-      component: OtherProgressView
+      component: OtherProgressView,
+      meta: {
+        title: "Other progress"
+      }
     },
     {
       path: "/achievements",
       name: "achievements",
-      component: AchievementView
+      component: AchievementView,
+      meta: {
+        title: "Achievements"
+      }
     },
     {
       path: "/replays",
       name: "replays",
-      component: ReplayView
+      component: ReplayView,
+      meta: {
+        title: "Replays"
+      }
     },
     {
       path: "/websites",
       name: "websites",
-      component: WebsiteView
+      component: WebsiteView,
+      meta: {
+        title: "Websites"
+      }
     },
     {
       path: "/:pathMatch(.*)*",
       name: "notfound",
-      component: NotFoundView
+      component: NotFoundView,
+      meta: {
+        title: "404 Not Found"
+      }
     }
   ]
+});
+
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+router.afterEach((to, from) => {
+  nextTick(() => {
+    document.title = to.meta.title as string ?? "Website";
+  });
 });
 
 export default router;
