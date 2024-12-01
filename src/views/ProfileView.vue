@@ -20,6 +20,9 @@
     <a href="https://twitter.com/CaoMinh_Touhou" target="_blank"
       ><img class="inline" width="16" src="@/assets/icons/twitter.png" /> Twitter</a
     ><br />
+    <a href="https://bsky.app/profile/hoangcaominh.bsky.social" target="_blank"
+      ><img class="inline" width="16" src="@/assets/icons/bluesky.png" /> Bluesky</a
+    ><br />
     <a href="https://github.com/hoangcaominh" target="_blank"
       ><img class="inline" width="16" src="@/assets/icons/github.png" /> GitHub</a
     ><br />
