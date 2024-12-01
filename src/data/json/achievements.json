@@ -161,7 +161,7 @@
   },
   {
     "date": "12 Jun 2021",
-    "achievement": "IN Perfect Lunatic 1cc (LNNFS), live on Hakurei League",
+    "achievement": "IN Perfect Lunatic 1cc (Border Team LNNFS), live on Hakurei League",
     "isMilestone": true
   },
   {
@@ -191,12 +191,7 @@
   },
   {
     "date": "10 Sep 2022",
-    "achievement": "IN 2nd Perfect Lunatic 1cc (LNNFS)",
-    "isMilestone": true
-  },
-  {
-    "date": "14 May 2022",
-    "achievement": "IN 3rd Perfect Lunatic 1cc (LNNFS)",
+    "achievement": "IN 2nd Perfect Lunatic 1cc (Ghost Team LNNFS)",
     "isMilestone": true
   },
   {
@@ -207,6 +202,16 @@
   {
     "date": "27 Nov 2023",
     "achievement": "LoLK Extra Perfect 1cc, all Windows main games Extra Perfect 1cc get",
+    "isMilestone": true
+  },
+  {
+    "date": "26 May 2024",
+    "achievement": "IN 3rd Perfect Lunatic 1cc (Scarlet Team LNNFS)",
+    "isMilestone": true
+  },
+  {
+    "date": "23 Nov 2024",
+    "achievement": "IN 4rd Perfect Lunatic 1cc (Magic Team LNNFS)",
     "isMilestone": true
   }
 ]
