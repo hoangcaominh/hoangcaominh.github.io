@@ -564,5 +564,40 @@
         "description": ""
       }
     }
+  },
+  {
+    "game": "FW",
+    "pb": {
+      "easy": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "normal": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "hard": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "lunatic": {
+        "type": "nc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      },
+      "extra": {
+        "type": "ncc",
+        "meets3rdConditions": false,
+        "replayPath": "",
+        "description": ""
+      }
+    }
   }
 ]
