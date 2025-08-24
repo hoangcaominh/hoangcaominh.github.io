@@ -9,9 +9,6 @@
     <p>Date of starting playing Touhou: 8 February 2015</p>
     <p>Currently playing: Yes</p>
     <br />
-    <a href="https://www.youtube.com/channel/UCIIZj54ucp_lKOjBqXuF4vQ" target="_blank"
-      ><img class="inline" width="16" src="@/assets/icons/youtube.png" /> Youtube</a
-    ><br />
     <a href="https://twitter.com/CaoMinh_Touhou" target="_blank"
       ><img class="inline" width="16" src="@/assets/icons/twitter.png" /> Twitter</a
     ><br />
@@ -20,6 +17,9 @@
     ><br />
     <a href="https://github.com/hoangcaominh" target="_blank"
       ><img class="inline" width="16" src="@/assets/icons/github.png" /> GitHub</a
+    ><br />
+    <a href="https://www.youtube.com/channel/UCIIZj54ucp_lKOjBqXuF4vQ" target="_blank"
+      ><img class="inline" width="16" src="@/assets/icons/youtube.png" /> Youtube</a
     ><br />
     <img class="inline" width="16" src="@/assets/icons/discord.png" /> hoangcaominh<br />
     <br />
