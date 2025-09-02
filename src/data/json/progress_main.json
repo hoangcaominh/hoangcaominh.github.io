@@ -587,7 +587,7 @@
         "description": ""
       },
       "lunatic": {
-        "type": "nc",
+        "type": "ncc",
         "meets3rdConditions": false,
         "replayPath": "",
         "description": ""
