@@ -11,6 +11,7 @@ import NotFoundView from "@/views/NotFoundView.vue";
 import { nextTick } from "vue";
 import GameView from "@/views/GameView.vue";
 import USGView from "@/views/USGView.vue";
+import AnnouncementView from "@/views/AnnouncementView.vue";
 
 const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
@@ -86,6 +87,14 @@ const router = createRouter({
       component: USGView,
       meta: {
         title: "USG"
+      }
+    },
+    {
+      path: "/annoucement",
+      name: "annoucement",
+      component: AnnouncementView,
+      meta: {
+        title: "Annoucement"
       }
     },
     {
