@@ -1,7 +1,7 @@
 <template>
   <PageTitle>Announcement</PageTitle>
   <div class="text-center">
-    <div class="text-left mx-12 space-y-3">
+    <div class="text-justify mx-12 space-y-3">
       <p>Hello, this is Cao Minh speaking. If you are reading this message, it means you have seen either <a href="https://x.com/CaoMinh_Touhou/status/1993332139539284403" target="_blank">this tweet</a> or the repository update where this site was hosted. Nevertheless, I am composing this blog with the intention of sharing some of my recent thoughts to everyone reading this.</p>
       <p>I am already on my way to or have arrived at Australia. The reason for that is I am pursuing a Master degree in Computer Science in Sydney, meaning I will be living in Sydney, Australia for at least 2 years. However, moving to a foreign country is not the main reason I started writing blog. The main reason this blog exists is because this is the point where my life is going to turn to a new chapter, and while it seems unnecessary, I think some people would like to know my current status, so I decided to post this announcement before settling down once and for all.</p>
       <p>I will stop going for high-level play and return to a casual Touhou fan.</p>
