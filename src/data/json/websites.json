@@ -47,21 +47,12 @@
         "name": "Lunarcast"
       },
       {
-        "url": "https://www.silentselene.net//",
+        "url": "https://www.silentselene.net/",
         "name": "Silent Selene"
       },
       {
-        "url": "https://www.puresign.tokyo/",
-        "name": "Keroda"
-      }
-    ]
-  },
-  {
-    "description": "Join the central hub of Touhou gameplay community",
-    "links": [
-      {
-        "url": "https://discord.gg/xU3utzg",
-        "name": "Touhou Replay Community"
+        "url": "https://l-uploader.puresign.tokyo/",
+        "name": "L-Uploader"
       }
     ]
   },

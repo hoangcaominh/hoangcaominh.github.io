@@ -21,6 +21,9 @@
     <a href="https://www.youtube.com/channel/UCIIZj54ucp_lKOjBqXuF4vQ" target="_blank"
       ><img class="inline" width="16" src="@/assets/icons/youtube.png" /> Youtube</a
     ><br />
+    <a href="https://steamcommunity.com/id/caominh_touhou/" target="_blank"
+      ><img class="inline" width="16" src="@/assets/icons/steam.png" /> Steam</a
+    ><br />
     <img class="inline" width="16" src="@/assets/icons/discord.png" /> hoangcaominh<br />
     <br />
     <a
